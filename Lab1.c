@@ -1,4 +1,4 @@
-/* Lab 1 Presentation
+/** Lab 1 Presentation
  * Author: Conner Higashino
  * EE160-002 Spring 2017
  */
