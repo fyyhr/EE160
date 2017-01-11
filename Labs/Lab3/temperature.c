@@ -12,4 +12,25 @@
 
 #include <stdio.h>
 
-int main() {
+int main () {
+  /* inputs */
+  float tempFahren;
+  /* outputs */
+  float tempCelsius;
+
+  /* Get the user input for temperature in Fahrenheit */
+  printf("Enter the temperature in Fahrenheit to convert: ");
+  scanf("%f", &tempFahren);
+
+  /* Calculate the temperature in Celsius
+   * (T(c) = (T(f) - 32) * 5/9)
+   */
+  tempCelsius = tempFahren - 32;
+  tempCelsius *= 5;
+  tempCelsius /= 9;
+
+  /* Print the result to the screen */
+  printf("%.2f degrees in Fahrenheit is %.2f degrees in Celsius\n", tempFahren, tempCelsius);
+
+  return 0;
+}
