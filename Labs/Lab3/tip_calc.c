@@ -1,7 +1,7 @@
 //File: tip_calc.c
-//By: 
-//login:
-//Date:
+//By: Conner Higashino 
+//login: csh3173
+//Date: January 10, 2017
 
 /*
 	A program to compute the cost of a meal including tax, tip, and a discount
@@ -30,20 +30,25 @@ int main()
 	scanf("%f", &sub_total);
 
 	//compute the discount price
-	discount_price = ((sub_total) - ((sub_total) * (discount)));
+	discount_price = sub_total - (sub_total * discount);	/* You can remove a lot of
+								 * parentheses here. You only need
+								 * the two.
+								 */
 
 	//compute the tax
-	tax = (discount_price * sales_tax);
+	tax = discount_price * sales_tax;			/* You don't need parantheses here */
 
 	//compute the tip
-	tip_wo_tax = (((discount_price)) * (tip_rate));
-	tip_w_tax = (((discount_price) + (tax)) * (tip_rate));
+	tip_wo_tax = discount_price * tip_rate;			/* You don't need parantheses here */
+	tip_w_tax = (discount_price + tax) * tip_rate;		/* You can remove most parantheses
+								 * here. You only need the two
+								 */
 	//if you're feeling generous or lazy, you tip on the tax too
 	
 
 	//compute the final cost
-	final_cost_w_tax = (discount_price + (tax + (tip_w_tax)));
-	final_cost_wo_tax = (discount_price + (tax + (tip_wo_tax)));
+	final_cost_w_tax = discount_price + tax + tip_w_tax;	/* You don't need parantheses here */
+	final_cost_wo_tax = discount_price + tax + tip_wo_tax;  /*				   */
 	
 	//output results
 	printf("---------------------------------------\n");
