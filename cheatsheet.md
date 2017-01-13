@@ -33,4 +33,4 @@ When in normal mode, you can type in commands by prefexing it with a colon ":" a
 * ":w" write changes
 * ":q" exit. You must write your changes first
 * ":q!" exit and discard changes
-* You can combine the ":w" and ":q" commands into one, ":wq" which will write and quit. If you want to write to a different file, you can use ":w <filename>" or ":wq <filename>".
+* You can combine the ":w" and ":q" commands into one, ":wq" which will write and quit. If you want to write to a different file, you can use ":w `<filename`>" or ":wq `<filename`>".
