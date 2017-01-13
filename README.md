@@ -9,4 +9,5 @@ If you would like to download this repository to your machine, do the following:
 4. Type 'git remote add origin https://github.com/fyyhr/EE160'
 5. Type 'git pull origin master
 6. You should now be able to see all the files on your local machine.
-Git is a version control system (VCS) that is incredibly common in today's industry. Even if you're not going to be a programmer, it is worthwhile to learn how to use git. You can use it for anything, not just .c files (though, it has trouble with larger files). For those curious, a git tutorial can be found at http://learngitbranching.js.org/
+
+ Git is a version control system (VCS) that is incredibly common in today's industry. Even if you're not going to be a programmer, it is worthwhile to learn how to use git. You can use it for anything, not just .c files (though, it has trouble with larger files). For those curious, a git tutorial can be found at http://learngitbranching.js.org/
