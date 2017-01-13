@@ -13,16 +13,16 @@ alt + f: move the cursor forward one word on the current line, like ctrl + right
 alt + b: move the cursor back one word on the current line, like ctrl + left in Word.
 
 Tab will auto-complete files and folder names. Using tab in C-Shell is slightly more powerful than BASh as it will give suggestions on what it should be and allow you to cycle through them. In BASh, tab will only auto-complete as far as it uniquely can. If you have two files, EE160 and EE211, if you type 'E' and hit tab, BASh will only auto-complete 'EE'. You then need to type more so it can identify which file it should auto-complete to.
-Note: Some IDEs (Integrated development environments) like visual studio and eclipse can also auto-complete within coding by using tab. We are using Vim which does not have this feature.
 
 Some important Vim commands:
-Vim can be navigated with the arrow keys, but this is not suggested. For the most part, you should be navigating through vim using h, j, k, and l. It's faster, trust me. It is also important to note that vim has multiple 'modes' that changes what certain keys do. You can look all of these up on your own time, I will provide you with the basic key functions.
+Vim can be navigated with the arrow keys, or with h, j, k, and l. Use whichever navigation method that is intuitive and easy for you. It is also important to note that vim has multiple 'modes' that changes what certain keys do. You can look all of these up on your own time, I will provide you with the basic key functions.
 
 h: move the cursor one character to the left
 j: move the cursor one line down
 k: move the cursor one line up
 l: move the cursor one character to the right
 i: Enter insert mode (NOTE: while in insert mode, any letter or number key will type their respective character)
+a: append. This will enter insert mode AFTER the cursor.
 v: Enter visual mode. Visual mode allows you to select chunks of code to delete, cut, or copy.
 y: "Yank." The properties of yank change depending on what mode you're in. I suggest using yank in visual mode as it will yank the highlighted text to register. Yank acts like copy.
 p: "Put." Lowercase p will put the text from your register (that you yanked) after the cursor. If you do shift+p, it'll put the text before the cursor.
