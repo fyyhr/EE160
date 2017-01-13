@@ -1,7 +1,7 @@
 So, there's some shortcuts that you ought to know.
 
 First off, some shell commands (these are from BASh, but they work in C-Shell).
-* ctrl + l (that's the letter 'l'): Clear the terminal
+* ctrl + l (that's the letter 'L'): Clear the terminal
 * ctrl + a: take you to the beginning of the line that you're typing on
 * ctrl + e: take you to the end of the line that you're typing on
 * ctrl + h: the same as backspace.
@@ -14,7 +14,7 @@ First off, some shell commands (these are from BASh, but they work in C-Shell).
 
 Tab will auto-complete files and folder names. Using tab in C-Shell is slightly more powerful than BASh as it will give suggestions on what it should be and allow you to cycle through them. In BASh, tab will only auto-complete as far as it uniquely can. If you have two files, EE160 and EE211, if you type 'E' and hit tab, BASh will only auto-complete 'EE'. You then need to type more so it can identify which file it should auto-complete to.
 
-Some important Vim commands:
+Some important Vim commands:  
 Vim can be navigated with the arrow keys, or with h, j, k, and l. Use whichever navigation method that is intuitive and easy for you. It is also important to note that vim has multiple 'modes' that changes what certain keys do. You can look all of these up on your own time, I will provide you with the basic key functions.
 
 * h: move the cursor one character to the left
@@ -28,9 +28,12 @@ Vim can be navigated with the arrow keys, or with h, j, k, and l. Use whichever 
 * p: "Put." Lowercase p will put the text from your register (that you yanked) after the cursor. If you do shift+p, it'll put the text before the cursor.
 * esc: exit whatever mode you may be in (insert, visual, etc)
 
-typed commands in vim
+typed commands in vim:  
 When in normal mode, you can type in commands by prefexing it with a colon ":" and then typing the command. Some useful commands are
 * ":w" write changes
 * ":q" exit. You must write your changes first
 * ":q!" exit and discard changes
-* You can combine the ":w" and ":q" commands into one, ":wq" which will write and quit. If you want to write to a different file, you can use ":w `<filename`>" or ":wq `<filename`>".
+* You can combine the ":w" and ":q" commands into one, ":wq" which will write and quit. If you want to write to a different file, you can use ":w `<filename>`" or ":wq `<filename>`".
+* ":x" Write current file, if modified, and quit (same as ":wq").
+* "ZZ" Write current file, if modified, and quit (same as ":wq").
+* "ZQ" Quit without checking for changes (same as ":q!").
