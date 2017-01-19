@@ -1,7 +1,8 @@
-Program                           Compiles                          Executes  
+Each program will be graded individually  
   
-Each program is          Does the program compile?               Does the program do what it's supposed to do?  
-graded individually       (0-1 with decimals)                     (0-1 with decimals)  
+Does the program compile? (0-1 with decimals)
+
+Does the prgram do what it's supposed to do? (0-1 with decimals)
   
 Bonus/penalty multiplyer  
 1.05, 1.00, .90, .50
