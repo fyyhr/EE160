@@ -7,7 +7,7 @@ If you would like to download this repository to your machine, do the following:
 2. type 'git init'
 3. If your machine does not have git installed, install it. Instructions can be found at https://git-scm.com/doc (wiliki already has git installed)
 4. Type 'git remote add origin https://github.com/fyyhr/EE160'
-5. Type 'git pull origin master
+5. Type 'git pull origin master'
 6. You should now be able to see all the files on your local machine.
 
 Periodically, things will be updated in this repository. To download the latest update, simply repeate step 5 in the directory you used to hold all these files and it should automatically download the latest updates.
