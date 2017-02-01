@@ -31,8 +31,8 @@ int main()
 
 	//compute the discount price
 	discount_price = sub_total - (sub_total * discount);	/* You can remove a lot of
-								 * parentheses here. You only need
-								 * the two.
+								 * parentheses here. You can keep these two and be OK as they make it easier to
+                 * read
 								 */
 
 	//compute the tax
