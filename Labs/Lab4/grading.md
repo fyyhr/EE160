@@ -30,6 +30,14 @@ temptble.c
  * +0.2 for documentation
  * minimum effort value: 0.5, if you turn in Lab 3's temperature for this
 
+account.c
+---------
+ * +1 for compiling
+ * +0.2 for using calc\_acc\_amt() function
+ * +0.2 for taking user input
+ * +0.4 for looping and terminating when user enters 0 for initial amount
+ * +0.2 for documentation
+ 
 algorithm
 ---------
  * +0.5 for turning in per program (total +1 pts)
