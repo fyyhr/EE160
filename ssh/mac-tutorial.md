@@ -2,10 +2,10 @@ Preface
 =====
 This guide will teach you how to set up passwordless logins for Mac users. The following steps are:
 
-0. [This is a link to cow](#cow)
-0. [This is a link to moo](#moo)
+0. [This is a link to cow](#cow-1)
+0. [This is a link to moo](#moo-1)
 
-## cow
+## cow 1
 
 0. filler
 0. filler
@@ -111,7 +111,7 @@ This guide will teach you how to set up passwordless logins for Mac users. The f
 0. filler
 0. filler
 
-## moo
+## moo 1
 0. filler
 0. filler
 0. filler
