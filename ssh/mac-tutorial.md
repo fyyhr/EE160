@@ -1,7 +1,6 @@
-Configuring SSH for Mac Users
-====
+# Configuring SSH for Mac Users
 
-Preface
+## Preface
 -----
 This guide will teach you how to set up passwordless logins via SSH for **Mac users**.
 
