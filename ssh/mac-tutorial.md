@@ -1,5 +1,5 @@
 # Configuring SSH for Mac Users
-This guide will teach you how to set up passwordless logins via SSH for **Mac users**.
+This guide will teach you how to set up passwordless logins via SSH for **Mac users**. This guide is estimated to take around 15 minutes.
 
 ### Table of Contents:
 0. [Navigating to the .ssh folder](#navigating-to-the-.ssh-folder)
@@ -10,7 +10,8 @@ This guide will teach you how to set up passwordless logins via SSH for **Mac us
 ## Navigating to the .ssh folder
 The first step is to make sure you have the necessary .ssh folder in your home directory and to navigate to it.
 
-0. Open your terminal **(make sure you're not logged into wiliki)** and type `ls ~/.ssh`. This will list the files in your .ssh directory. If you get an error saying that the directory doesn't exist, then make a directory using `mkdir ~/.ssh`. Sidenote: the **~** is a reference to your home directory.
+0. Open your terminal **(make sure you're not logged into wiliki)** and type `ls ~/.ssh`. This will list the files in your .ssh directory.
+..* If you get an error saying that the directory doesn't exist, then make a directory using `mkdir ~/.ssh`. Sidenote: the **~** is a reference to your home directory.
 0. Navigate into the .ssh folder using `cd ~/.ssh`. You can check that you are in the folder by typing `pwd` which will print the working directory. It should be something like `/users/your-username/.ssh`.
 
 ## Generating a new SSH key pair
