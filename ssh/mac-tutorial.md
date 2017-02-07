@@ -6,7 +6,7 @@ This guide will teach you how to set up passwordless logins via SSH for **Mac us
 0. [Generating a new SSH key pair](#generating-a-new-ssh-key-pair)
 0. [Adding your public key to wiliki](#adding-your-public-key-to-wiliki)
 0. [Testing the passwordless login](#testing-the-passwordless-login)
-0. [(Bonus) Configuring SSH](#bonus-configuring-ssh)
+0. [(Bonus) SSH shortcut](#bonus-ssh-shortcut)
 
 ## Navigating to the .ssh folder
 The first step is to make sure you have the necessary .ssh folder in your home directory and to navigate to it.
@@ -38,7 +38,7 @@ Great! We've made it this far. Now it's time to test the passwordless logins.
 0. Exit out of wiliki using `exit`.
 0. Attempt to log into wiliki and it *should* allow you to log in without a password prompt.
 
-## (Bonus) Configuring SSH
+## (Bonus) SSH shortcut
 This section is optional and will teach you how to reduce `ssh your-username@wiliki.eng.hawaii.edu` to just `ssh wiliki`.
 
 0. Open up a terminal **(make sure you're not logged into wiliki)** and go into your .ssh folder using `cd ~/.ssh`.
