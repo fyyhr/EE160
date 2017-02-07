@@ -30,7 +30,7 @@ Now it's time to add your public key to wiliki. This is what will allow you to a
 0. Log into wiliki (passwordless logins won't work yet) and go to your .ssh directory using `cd ~/.ssh`.
 0. List the files in the directory using `ls`. There should be a file called **authorized_keys**, which is the file that we transferred (we renamed it).
 0. We need to change the permissions of the file for it to take effect. Enter `chmod 600 authorized_keys`.
-0. Verify that the permissions have been changed by seeing the permissions. Type in `ls -l authorized_keys`, and make sure the output starts with **-rw-------.**.
+0. Verify that the permissions have been changed by seeing the permissions. Type in `ls -l authorized_keys`, and make sure the output starts with `-rw-------.`.
 
 ## Testing the passwordless login
 Great! We've made it this far. Now it's time to test the passwordless logins.
@@ -43,5 +43,5 @@ This section is optional and will teach you how to reduce `ssh your-username@wil
 
 0. Open up a terminal **(make sure you're not logged into wiliki)** and go into your .ssh folder using `cd ~/.ssh`.
 0. Create a new file called "config" and copy into it the contents of [this file](config). Replace "your-username" with your wiliki username.
-0. Change the permissions of the file using `chmod 600 config`. Verify the permissions using `ls -l config` and make sure the output starts with **-rw-------.**.
+0. Change the permissions of the file using `chmod 600 config`. Verify the permissions using `ls -l config` and make sure the output starts with `-rw-------.`.
 0. Test it out by entering `ssh wiliki`.
