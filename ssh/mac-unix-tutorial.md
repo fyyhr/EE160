@@ -1,4 +1,4 @@
-# Configuring SSH for Mac Users
+# Configuring SSH for Mac and Unix users
 This guide will teach you how to set up passwordless logins via SSH for **Mac users**. This guide is estimated to take around 15 minutes.
 
 ### Table of Contents:
