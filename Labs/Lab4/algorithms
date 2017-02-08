@@ -1,0 +1,21 @@
+Temptable:
+
+Get user inputs
+Calculate starting value Celsius
+Print Fahrenheit and Celsius value
+Increment by 5
+Calculate new value and print, repeat until at final value
+Print number of lines printed
+Terminate if user enters same start and stop
+
+Account:
+
+Get user inputs
+Calculate new account value after first year
+  acc = acc + (acc * interest)
+repeat however many years that user input
+  (0 to years-1)
+print final account value
+  value at end of years user input
+
+
