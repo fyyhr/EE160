@@ -26,8 +26,8 @@ Now that we're in our .ssh folder, we can generate a new SSH key pair which we w
 ## Adding your public key to wiliki
 Now it's time to add your public key to wiliki. This is what will allow you to access wiliki without your password.
 
-0. Before we can add our key to wiliki, we have to check that it has a .ssh directory. We can do that with `ssh your-username@wiliki.eng.hawaii.edu "ls ~/.ssh`, which will tell wiliki to print out the contents of the .ssh folder (if it exists) without leaving your current directory.
-  - If you get an error that says "no such file or directory" then that means the folder doesn't exist and we must make it. We can do so using the command: `ssh your-username@wiliki.eng.hawaii.edu "mkdir ~/.ssh && chmod 700 ~/.ssh"`. This will tell wiliki to create a .ssh folder and set the proper permissions.
+0. Before we can add our key to wiliki, we have to check that it has a .ssh directory. We can accomplish this with the command: `ssh your-username@wiliki.eng.hawaii.edu "ls ~/.ssh`, which will tell wiliki to print out the contents of the .ssh folder (if it exists) without leaving your current directory.
+  - If you get an error that says this directory doesn't exist, then make it using: `ssh your-username@wiliki.eng.hawaii.edu "mkdir ~/.ssh && chmod 700 ~/.ssh"`. This tells wiliki to make the folder as well as set the proper permissions (don't worry about the permissions part).
 0. We need to copy and transfer your public key to wiliki. While you're still in your .ssh directory, enter the following command: `scp id_rsa.pub your-username@wiliki.eng.hawaii.edu:.ssh/authorized_keys`. Enter your password and your file should start transferring.
   - **Note: this will overwrite existing authorized keys**. If you haven't done this before, you don't have any existing keys so don't worry.
 0. Log into wiliki (passwordless logins won't work yet) and go to your .ssh directory using `cd ~/.ssh`.
