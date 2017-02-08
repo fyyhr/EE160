@@ -19,6 +19,7 @@ The first step is to make sure you have the necessary .ssh folder in your home d
 Now that we're in our .ssh folder, we can generate a new SSH key pair which we will use to log in without entering our password.
 
 0. Run the command `ssh-keygen` to start the process. Press **enter** through all the prompts until you get to a message that says: `The key's randomart image is:` followed by a box with random characters inside.
+  - If you get a message saying that the files already exist, **don't overwrite them**. You can continue using the keys that are already there.
 0. Now check the contents of the .ssh folder with the command `ls`. You should notice two new files, **id_rsa** and **id_rsa.pub**, which is your **private** and **public** keys respectively. **Do not share your private key with anyone** as it can be used to impersonate you.
   - If you want to learn more about public and private keys and how they are used in encryption, read [this article](http://blakesmith.me/2010/02/08/understanding-public-key-private-key-concepts.html) and/or watch [this video](https://www.youtube.com/watch?v=GSIDS_lvRv4).
 
