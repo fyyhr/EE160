@@ -1,4 +1,4 @@
-/*      File : sum.c            *
+/*      File : avg.c            *
  *      By   : Conner Higashino                 *
  *      login: csh3173                 *
  *      team : Solutions                 *

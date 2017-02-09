@@ -1,8 +1,8 @@
-/*      File : sum.c            *
+/*      File : weight.c            *
  *      By   : Conner Higashino                 *
  *      login: csh3173                 *
  *      team : Solutions                 *
- *      Date : February 6, 2017                 */
+ *      Date : February , 2017                 */
 
 /*  A program to compute the sum of numbers given on the input  */
 
