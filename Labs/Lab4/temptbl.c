@@ -72,7 +72,7 @@ int temptable(float start, float stop) {
   /* You could also call the function in the printf when fetching the variable value, but that's
    * harder to read, so I generally recommend against it.
    */
-  while ((start + 5) < stop) {  /* The extra parentheses make the code easier to understand */
+  while (start < stop) {
     tempCelsius = tocelsius(start);
     printf("%f F is %f C\n", start, tempCelsius);
     start += 5; /* Increment the temperature by 5 */
