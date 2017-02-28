@@ -22,7 +22,7 @@ int main()
         /*  Get the first input            */
   printf("Weight may be given as a decimal or integer, however you decide. But the program is not smart enough to know if you want decimals or percents. So be consistent with either one that you choose.\n");
   printf("Enter the first weight and value you would like to average (value first, separated with a space): ");
-  scanf("%f %f", &weight, &value);
+  scanf("%f %f", &weight, &input);
 
         /*  While there is more input      */
   while (flag != EOF) {
@@ -35,7 +35,7 @@ int main()
     count++;
                 /*  Get the next input     */
     printf("Enter the next weight and value you would like to average (value first, separated with a space): ");
-    flag = scanf("%f %f", &weight, &value);
+    flag = scanf("%f %f", &weight, &input);
   }
 
   /* Compute average */
