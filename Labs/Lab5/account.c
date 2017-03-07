@@ -37,11 +37,11 @@ int main() {
       printf("\nBye now\n");
       return 0;
     }
-    printf("What is the fixed annual interest rate (decimal number only)?  ");
-    scanf("%f", &interest);
     printf("Would you like to track interest accumulation by years, months, or days?\n");
     printf("1 - years;\t2 - months;\t3 - days\n");
     scanf("%d", &selector);
+    printf("What is the fixed interest rate (decimal number only)?  ");
+    scanf("%f", &interest);
     if (selector == YEARS) {
       printf("How many years are you leaving this investment?  ");
       scanf("%d", &time);
@@ -50,14 +50,10 @@ int main() {
     else if (selector == MONTHS) {
       printf("How many months are you leaving this investment?  ");
       scanf("%d", &time);
-      /* Convert interest from annual to monthly rate */
-      interest /= 12;
     }
     else if (selector == DAYS) {
       printf("How many days are you leaving this investment?  ");
       scanf("%d", &time);
-      /* Convert interest from annaul to daily rate (assume 365 days/year, include weekends) */
-      interest /= 365;
     }
     else {
       printf("Unrecognized input, let's start over\n");
