@@ -10,6 +10,12 @@
 float pos_power(float base, int exponent) {
   int count = 1;
   float total = base;
+  if (exponent == 0) {
+    return 1;
+  }
+  else if (exponent < 0) {
+    return 0;
+  }
   while (count < exponent) {
     total = total * base;
     count++;
