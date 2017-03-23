@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /**
  * temperature.c
  * Author: Conner Higashino
@@ -58,29 +57,4 @@ float tocelsius(float degF) {
 
   return temp;    /* You could also do all the calculations in the return statement, but that's
                    * harder to read.
-                   */
-=======
-#include <stdio.h>
-
-float toCelsius(int degF);
-
-int main() {
-
-  int degF;
-  //do stuff
-  scanf(%d, degF);
-  //function call
-  toCelsius(degF);
-  //do other stuff
-  return 0;
-}
-`
-
-
-float toCelsius(int degF) {
-  float degC;
-  //do something
-  degC = 0;
-  return degC;
->>>>>>> ec49f113095c304021c7d87f5b730c9bd5cbf2ef
-}
+                  */
