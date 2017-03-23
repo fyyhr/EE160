@@ -58,4 +58,3 @@ float tocelsius(float degF) {
   return temp;    /* You could also do all the calculations in the return statement, but that's
                    * harder to read.
                    */
-}
